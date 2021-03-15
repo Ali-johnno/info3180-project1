@@ -1,14 +1,16 @@
 body {
-    padding-top: 5%;
     background-color: rgb(243, 241, 241);
 }
 
 main{
-    padding-top: 20px;
+    margin-top: 5%;
 }
-
+main h1{
+    margin-bottom: 1%;
+    font-weight: bolder;
+}
 .box-shadow{
-    box-shadow: 8px 7px 10px rgb(180, 180, 180);
+    box-shadow: 8px 7px 10px rgb(204, 203, 203);
 }
 
 .all-properties{
@@ -20,7 +22,7 @@ main{
 
 .single-property{
     position: relative;
-    width: 420px;
+    width: 1fr;
     height: 500px;
     background-color: white;
 }
